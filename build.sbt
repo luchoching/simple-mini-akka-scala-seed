@@ -6,10 +6,10 @@ scalaVersion := "2.11.7"
 
 
 libraryDependencies ++= {
-  val akkaVersion = "2.4.1"
+  val akkaVersion = "2.4.2"
   val sprayVersion = "1.3.3"
   Seq(
-    "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+    "com.typesafe.akka" %% "akka-actor" % akkaVersion
 //    "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
 //    "com.typesafe.akka" % "akka-cluster-metrics_2.11" % akkaVersion
 //    "com.typesafe.akka" %% "akka-remote" % akkaVersion,
